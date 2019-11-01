@@ -1,0 +1,30 @@
+{
+  "id": "1427723",
+  "name": "1911.2.2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "75978",
+      "name": "减号",
+      "font_class": "jianhao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "8288849",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e84f",
+      "unicode_decimal": 59471
+    },
+    {
+      "icon_id": "9665944",
+      "name": "删  除",
+      "font_class": "shanchu",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    }
+  ]
+}

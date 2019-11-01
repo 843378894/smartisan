@@ -1,0 +1,36 @@
+{
+    "bPhone":{
+        "url":"../images/ch_phone.webp",
+        "name":"坚果R1",
+        "price1":"2999",
+        "price2":"3299",
+        "price3":"3799"
+    },
+    "rPhone":{
+        "url":"../images/ch_phoneRed.webp",
+        "name":"坚果 Pro 2s",
+        "price1":"1798",
+        "price2":"1998",
+        "price3":"2298"
+    },
+    "item1":{
+        "url":"../images/ch_item01.jpg",
+        "name":"坚果彩虹数据线",
+        "price1":"36"
+    },
+    "item2":{
+        "url":"../images/ch_item02.jpg",
+        "name":"坚果 Type-C To Type-C 数据线",
+        "price1":"36"
+    },
+    "item3":{
+        "url":"../images/ch_item03.jpg",
+        "name":"Smartisan 耳机转接头",
+        "price1":"16"
+    },
+    "item4":{
+        "url":"../images/ch_item04.jpg",
+        "name":"坚果 QuickCharge 4+ 快速充电器",
+        "price1":"58"
+    }
+}

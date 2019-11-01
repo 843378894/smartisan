@@ -1,0 +1,72 @@
+[{
+    "bid":"1",
+    "name1":"坚果 Pro 2s",
+    "name2":"4G+64GB",
+    "img":"../images/ch_phoneRed.webp",
+    "pirce":"1798.00"
+},
+{
+    "bid":"2",
+    "name1":"坚果 Pro 2s",
+    "name2":"6G+64GB",
+    "img":"../images/ch_phoneRed.webp",
+    "pirce":"1998.00"
+},
+{
+    "bid":"3",
+    "name1":"坚果 Pro 2s",
+    "name2":"6G+128GB",
+    "img":"../images/ch_phoneRed.webp",
+    "pirce":"2298.00"
+},
+{
+    "bid":"4",
+    "name1":"坚果 R1",
+    "name2":"6G+64GB",
+    "img":"../images/ch_phoneblue.webp",
+    "pirce":"2999.00"
+},
+{
+    "bid":"5",
+    "name1":"坚果 R1",
+    "name2":"6G+128GB",
+    "img":"../images/ch_phoneblue.webp",
+    "pirce":"3299.00"
+},
+{
+    "bid":"6",
+    "name1":"坚果 R1",
+    "name2":"8G+128GB",
+    "img":"../images/ch_phoneblue.webp",
+    "pirce":"3799.00"
+},
+{
+    "bid":"7",
+    "name1":"坚果彩虹数据线",
+    "name2":"七彩配色随机发货，为生活增添一份小小惊喜",
+    "img":"../images/ch_item01.jpg",
+    "pirce":"36.00"
+},
+{
+    "bid":"8",
+    "name1":"Smartisan 耳机转接头",
+    "name2":"即插即用、全面兼容",
+    "img":"../images/ch_item03.jpg",
+    "pirce":"16.00"
+
+},
+{
+    "bid":"9",
+    "name1":"坚果 QuickCharge 4+ 快速充电器",
+    "name2":"全面兼容的 18W 快速充电",
+    "img":"../images/ch_item04.jpg",
+    "pirce":"58.00"
+
+},
+{
+    "bid":"10",
+    "name1":"坚果 Type-C To Type-C 数据线",
+    "name2":"TPE 环保材质，PTC 过温保护",
+    "img":"../images/ch_item02.jpg",
+    "pirce":"36.00"
+}]

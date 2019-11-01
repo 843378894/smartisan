@@ -1,0 +1,250 @@
+body{
+    background: #ededed;
+}
+.start{
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);
+}
+.phone header{
+    height:60px;
+    font-size: 18px;
+    line-height: 60px;
+    color: #666;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.phone header h5{
+    margin-left: 25px;
+    font-weight: 700;
+}
+.content{
+    box-sizing: border-box;
+    width:1220px;
+}
+.content ul{
+    overflow: hidden;
+}
+.content ul>li{
+    height:429px;
+    width:305px;
+    float:left;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    border-width: 0 1px 1px 0;
+    position: relative;
+}
+.content ul>li:hover{
+    transition: opacity 0.3s ease-in-out 0s;
+    /* box-shadow: 0px 0px 20px 10px #ccc insert; */
+    background: rgba(248, 248, 248, 0.5);
+    -webkit-box-shadow: #ccc 0px 10px 10px;
+    -moz-box-shadow: #ccc 0px 10px 10px;
+    box-shadow: #ccc 0px 10px 10px;
+}
+.f_in:hover{
+    transition: opacity 0.3s ease-in-out 0s;
+    background: rgba(248, 248, 248, 0.5);
+    -webkit-box-shadow: #ccc 0px 10px 10px;
+    -moz-box-shadow: #ccc 0px 10px 10px;
+    box-shadow: #ccc 0px 10px 10px;
+}
+.content ul>li a{
+    display: block;
+    width:100%;
+    
+    overflow: hidden;
+    height: 100%;
+}
+.imgs{
+    text-align: center;
+}
+.content ul>li a img{
+    margin-top:40px;
+}
+.content .first{
+    width:610px;
+    
+    /* margin-top:50px; */
+
+}
+.content .first img{
+    width:100%;
+    float:left;
+    margin-top:0;
+}
+.dote{
+    width:96px;
+    height:14px;
+    display: inline-block;
+    /* overflow: hidden; */
+    line-height:14px;
+}
+.dote li{
+    float:left;
+    height:14px;
+    width:14px;
+    margin:0 5px;
+}
+.dote li img{
+    width:100%;
+}
+.word{
+    text-align: center;
+    position: relative;
+}
+.word h4{
+    line-height: 1.2;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    margin: 0 8px;
+}
+.word>p{
+    overflow: hidden;
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999;
+}
+.word1 h4{
+    margin:20px 0;
+}
+.price{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: -50px;
+}
+.ch_btn{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: -50px;
+    display: none;
+    z-index:99;
+}
+.ch_btn button{
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    border:1px solid #e1e1e1;
+    color: #666;
+    font-weight: bold
+}
+.ch_btn :nth-child(2){
+    background: #96b0ec;
+    color: white;
+    margin-left: 5px;
+    
+}
+.price p{
+	color: #d44d44;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+	display: inline-block;
+}
+.price span{
+	padding-left: 10px;
+    font-size: 12px;
+	color: #ccc;
+	text-decoration: line-through;
+}
+.forum{
+	margin-top:50px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.14);
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);
+}
+.title{
+	overflow: hidden;
+	border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.title h4{
+	float:left;
+	margin-left: 25px;
+    font-weight: 700;
+	line-height: 60px;
+    color: #666;
+	font-size: 20px ;
+}
+.title a{
+	margin:15px 20px 0 0;
+	float:right;
+	display: block;
+	padding: 0 15px;
+    line-height: 34px;
+    background: #fafafa;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background-image: linear-gradient(180deg,#fff,#fafafa);
+}
+.forum_content{
+	display: flex;
+	
+}
+.f_in{
+	width:25%;
+	border:1px solid #e1e1e1;
+	display: flex;
+	justify-content: center;
+}
+.f_in figure{
+	
+	/* align-items: center; */
+	margin-top:30px;
+	/* flex-direction: column; */
+	width:246px;
+}
+.f_in figure img{
+	width:246px;
+	height:138px;
+}
+.f_in figure figcaption h5{
+	margin: 30px 0 12px;
+    color: #333;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 700;
+}
+.f_in figure figcaption p{
+	font-size: 12px;
+    color: #999;
+    font-weight: 400;
+    line-height: 18px;
+}
+.f_in figure figcaption span{
+	display: inline-block;
+	margin-bottom: 30px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5079d9;
+}
+
+.buy{
+	position: absolute;
+	left: 186px;
+	top: 20px;
+	width: 118px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+	color: #FAFAFA;
+	background: #DCA7A7;
+    border-radius: 8px;
+    z-index:99;
+    opacity: 0.5;
+	display: none;
+}

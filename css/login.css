@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 800px;
+}
+
+#main{
+    width: 100%;
+    height: 800px;
+    background: url(../images/clj_bg_login.png);
+}
+#login{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 76px;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+#logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 176px;
+    top: 64px;
+    z-index: 2;
+    text-indent: -1000px;
+
+}
+.log{
+    width: 100%;
+    height: 230px;
+    background: url(../images/log_login.png) 50% 50% no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+.log p{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 46px;
+    width: 368px;
+    height: 46px;
+    border: none;
+    color: #aaa;
+    border:  1px solid #dadada;
+    border-radius: 6px;
+    text-indent: 60px;
+}
+#inp01{
+    
+    background: url(../images/clj_01.png) no-repeat;
+}
+#inp02{
+    background: url(../images/clj_02.png) no-repeat;
+}
+#check{
+    position: fixed !important;
+    left: -1000px;
+    
+}
+#tips03{
+    position: absolute;
+    left: 100px;
+    top: 282px;
+    font-size: 16px;
+    color: #aaa;
+    z-index: -1;
+}
+#tips04{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    font-size: 16px;
+    color: #aaa;
+    z-index: -1;
+}
+.remeber{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 12px;
+    color: #bbb;
+    position: relative;
+}
+#sp01 {
+    background: url(../images/clj_checkbox.png) no-repeat;
+    padding-left: 22px;
+    background-position-y: 0px;
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+}
+.sp01{
+    line-height: 20px;
+    display: inline-block;
+    height: 20px;
+    text-indent: 20px;
+    font-size: 14px;
+}
+.sp02,.sp03{
+    color: #696ddd;
+    float: right;
+}
+.sp02:hover{
+    cursor: pointer;
+}
+.sp03:hover{
+    cursor: pointer;
+}
+.sp04{
+    float: right;
+    margin: 0 8px;
+}
+#sub{
+    background: #B9CAEC;
+    text-indent: 0;
+    color: white;
+}
+#copyright{
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #aaa;
+    font-size: 12px;
+}

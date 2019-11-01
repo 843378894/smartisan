@@ -1,0 +1,29 @@
+[{
+    "img":"../images/ch_phoneRed.webp",
+    "id":"1",
+    "price1":"￥1,998.00",
+    "name2":"双系统，无限屏",
+    "name1":"坚果 Pro 2s"
+},
+{
+    "img":"../images/ch_phoneblue.webp",
+    "id":"2",
+    "price1":"￥3,799.00",
+    "name2":"次世代旗舰手机，内藏来自未来的“电脑”",
+    "name1":"坚果 R1"
+},
+{
+    "img":"../images/ch_phoneRed.webp",
+    "id":"1",
+    "price1":"￥1,998.00",
+    "name2":"坚果 Pro 2s",
+    "name1":"坚果 Pro 2s"
+},
+{
+    "img":"../images/ch_phoneblue.webp",
+    "id":"2",
+    "price1":"￥3,799.00",
+    "name2":"次世代旗舰手机，内藏来自未来的“电脑”",
+    "name1":"坚果 Pro 2s"
+}
+]

@@ -1,0 +1,99 @@
+.home-wrapper {
+    margin: 0 auto;
+    width: 1220px;
+}
+
+.out {
+    width: 100%;
+    height: 499px;
+    margin: -4px auto 24px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .14);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 8px -6px rgba(0, 0, 0, .1);
+}
+
+.out .img li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.out .img li a {
+    height: 100%;
+    width: 100%;
+    color: #5079d9;
+    cursor: pointer;
+    display: block;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.out .num {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.out .num li {
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: 1px #6c6c6c solid;
+}
+
+.out .num li.active {
+    background: #fff;
+}
+
+.out .btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+.out .left {
+    left: 0;
+}
+
+.out .right {
+    right: 0;
+}
+
+.out:hover .btn {
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,212 @@
+#header{
+    margin-bottom: 24px;
+}
+.nav_min {
+    background-image: linear-gradient(90deg, #222325, #3b3c3f, #222325);
+    height: 45px;
+}
+
+.nav_left {
+    float: left;
+    margin-left: 21px;
+    width: 31px;
+    padding: 13px 0 0
+}
+
+
+.nav_left a  {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background:url(../images/cq_01.png) no-repeat;
+    background-size:98%;
+    background-position:0 0px;  
+    
+}
+
+.nav {
+    position: relative;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav ul li {
+    line-height: 45px;
+    padding: 0 20px;
+    display: block;
+
+
+}
+
+.nav ul li a {
+    color: hsla(0, 0%, 100%, .7);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.nav ul li a:hover {
+    color: #e5e5e5;
+}
+
+/* .nav_right {
+    position: absolute;
+    top: 0px;
+    right: 21px;
+    height: 45px;
+    width: 118px;
+    line-height: 45px;
+} */
+
+.nav_right .li1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 21px;
+    margin-right: 28px;
+}
+.userInformation{
+    position: absolute;
+    width: 150px;
+    padding-top: 20px;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    border-color: rgba(0,0,0,.08);
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+    z-index: 99;
+    right:-38px;
+    top:30px;
+    text-align: center;
+    display: none;
+}
+.userHead dl{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.userHead dd{
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    border-radius: 50%;
+    border:1px solid #ccc;
+    margin: 0 auto;
+}
+.userHead dt{
+    line-height: 30px;
+}
+.userContent li{
+    border-top: 1px solid #f5f5f5;
+    display: block;
+    line-height: 44px;
+    height: 44px;
+    color: #616161;
+    font-size: 12px;
+    cursor:pointer;
+}
+.userContent li:hover{
+    background: #e1e1e1;
+}
+.userHead dd img{
+    width:100%;
+    vertical-align: middle;
+    
+}
+
+.nav_right .li2 {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin-right: 5px;
+}
+
+
+.nav_right li a {
+    display: block;
+    width: 20px;
+    height: 20px;
+
+}
+
+/* .nav_right li a:hover {} */
+
+.nav_right .li1 .logo1 {
+    background: url("../images/cq_02.png") no-repeat;
+    background-size: 186%;
+    background-position: -18px 0px;
+}
+
+.nav_right .li2 .logo2 {
+    background: url("../images/cq_02.png") no-repeat;
+    background-size: 186%;
+    background-position: -18px -19px;
+}
+
+.bottom_nav {
+    border-bottom: 1px solid #e1e1e1;
+    height: 74px;
+    line-height: 74px;
+    background: white;
+}
+
+.bottom_nav li {
+    float: left;
+    margin-right: 30px;
+
+}
+
+.bottom_nav li a {
+    color:rgba(0,0,0,.7);
+    opacity: 1 !important;
+}
+
+.bottom_nav li a:hover {
+    font-weight: 700;
+    color: #333;
+}
+
+
+.bottom_nav_left {
+    float: right;
+    width: 330px;
+    height: 38px;
+    padding-left: 40px;
+    padding-right: 15px;
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-radius:20px;
+    box-sizing: border-box;
+    background: #fff;
+    line-height: 36px;
+    margin-top: 18px;
+}
+
+.search {
+    position: absolute;
+    width: 273px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    border: none;
+    outline: none;
+}
+ .fdj{
+    float: right;
+    display: block;
+    width: 40px;
+    height: 38px;
+    background: url(../images/cq_03.PNG) no-repeat;
+    position: relative;
+    left: -274px;
+    top: -1px;
+} 

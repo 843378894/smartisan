@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 800px;
+}
+
+#main {
+    width: 100%;
+    height: 800px;
+    background: url(../images/clj_bg_login.png);
+}
+
+#register {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 76px;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+
+.reg {
+    width: 100%;
+    height: 64px;
+    position: relative;
+    margin-bottom: 40px;
+    background: #f9f9f9;
+    border-radius: 10px 10px 0 0;
+}
+
+.reg p {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 64px;
+    font-weight: bolder;
+    color: #666;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 46px;
+    width: 368px;
+    height: 46px;
+    border: none;
+    color: #aaa;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    text-indent: 60px;
+}
+
+#inp01 {
+
+    background: url(../images/clj_01.png) no-repeat;
+}
+
+#inp02 {
+    background: url(../images/clj_02.png) no-repeat;
+}
+
+#inp002 {
+    background: url(../images/clj_02.png) no-repeat;
+}
+
+.remeber {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 12px;
+    color: #bbb;
+    display: flex;
+    line-height: 20px;
+}
+
+#sp01 {
+    background: url(../images/clj_checkbox.png) no-repeat;
+    padding-left: 22px;
+    background-position-y: -20px;
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+}
+
+
+#sub {
+    background: #B9CAEC;
+    text-indent: 0;
+    color: white;
+}
+
+#copyright {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #aaa;
+    font-size: 12px;
+}
+#tips01{
+    position: absolute;
+    right: 40px;
+    top: 186px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+#tips02{
+    position: absolute;
+    right: 40px;
+    top: 254px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+#tips03{
+    position: absolute;
+    left: 100px;
+    top: 116px;
+    font-size: 16px;
+    color: #aaa;
+    z-index: -1;
+}
+#tips04{
+    position: absolute;
+    left: 100px;
+    top: 184px;
+    font-size: 16px;
+    color: #aaa;
+    z-index: -1;
+}
+#tips05{
+    position: absolute;
+    left: 100px;
+    top: 254px;
+    font-size: 16px;
+    color: #aaa;
+    z-index: -1;
+}

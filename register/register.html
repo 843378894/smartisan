@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册界面</title>
+</head>
+<link rel="stylesheet" href="../css/register.css" />
+<body>
+    <div id="main">
+        <div id="register">
+            <div id="tips01">密码只能为数字字母大小写且长度为4-12!</div>
+            <div id="tips02">密码不一致!</div>
+            <div id="tips03">请输入用户名</div>
+            <div id="tips04">请输入密码</div>
+            <div id="tips05">请重复密码</div>
+            <div class="reg">
+                <p>注册 Smartisan ID</p>
+            </div>
+            <form action="register.php" method="GET">
+                <input type="text" name="uname" id="inp01" >
+                <!-- <input type="text" name="code" id="code" value="验证码"> -->
+                <input type="password" name="pwd" id="inp02">
+                <input type="password" name="repwd" id="inp002">
+                <p class="remeber"><span id="sp01"></span>我已阅读并同意遵守法律声明和隐私条款</p>
+                <input type="submit" name="sub" id="sub" value="注册" />
+            </form>
+        </div>
+        <div id="copyright">Copyright © 2019 smartisan.com 版权所有 | 法律声明 | 隐私条款<br>
+            京 ICP 备 18020659 号 - 2</div>
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/register.js"></script>
+
+</html>

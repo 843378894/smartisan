@@ -1,0 +1,49 @@
+[{
+    "img":"../images/ch_item02.jpg",
+    "id":"1",
+    "price1":"￥36.00",
+    "price2":"￥45.00",
+    "name1":"坚果 Type-C To Type-C 数据线",
+    "name2":"TPE 环保材质，PTC 过温保护"
+},
+{
+    "img":"../images/ch_item04.jpg",
+    "id":"2",
+    "price1":"￥58.00",
+    "price2":"￥70.00",
+    "name1":"坚果 QuickCharge 4+ 快速充电器",
+    "name2":"全面兼容的 18W 快速充电"
+},
+{
+    "img":"../images/ch_item02.jpg",
+    "id":"3",
+    "price1":"￥36.00",
+    "price2":"￥40.00",
+    "name1":"坚果 Type-C To Type-C 数据线",
+    "name2":"TPE 环保材质，PTC 过温保护"
+},
+{
+    "img":"../images/ch_item03.jpg",
+    "id":"4",
+    "price1":"￥16.00",
+    "price2":"￥20.00",
+    "name1":"Smartisan 耳机转接头",
+    "name2":"即插即用、全面兼容"
+},
+{
+    "img":"../images/ch_item04.jpg",
+    "id":"5",
+    "price1":"￥58.00",
+    "price2":"￥60.00",
+    "name1":"坚果 QuickCharge 4+ 快速充电器",
+    "name2":"全面兼容的 18W 快速充电"
+},
+{
+    "img":"../images/ch_item03.jpg",
+    "id":"6",
+    "price1":"￥16.00",
+    "price2":"￥19.00",
+    "name1":"Smartisan 耳机转接头",
+    "name2":"即插即用、全面兼容"
+}]
+

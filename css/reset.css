@@ -1,0 +1,61 @@
+@charset "utf-8";
+ /* CSS Document */
+ body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{
+ 	margin:0;
+ 	padding:0;
+ }
+ body{
+ 	font:14px "微软雅黑",Arial;
+	color:#999;
+ }
+ a{
+ 	text-decoration:none;
+	color:#6c6c6c;
+ }
+ em{
+	 font-style:normal;
+	 /* 设置段落字体normal默认italic斜体字体 oblique倾斜字体inherit继承父级字体*/
+ }
+ li{
+	 list-style:none;
+	 
+ }
+ img{
+ 	border:0;
+ 	vertical-align:middle;
+ }
+ table{
+ 	border-collapse:collapse;
+ 	border-spacing:0;
+ }
+ p{
+ 	word-wrap:break-word;	
+ }
+ input{
+ 	outline:none;
+ }
+ h1,h2,h3,h4,h5,h6,b,strong{
+ 	font-weight:normal;		/* 清除文字加粗 */
+ 	font-size:100%;			/* 设置字号与父元素相同 */
+ }
+ i{
+	 font-style: normal;
+ }
+ .clearfix{
+	*zoom:1;
+	}
+.clearfix:after{
+	display:block;
+	content:'';
+	clear:both;
+	height:0;
+	overflow:hidden;
+	}
+fieldset{
+	border:none;
+}
+.container{
+	width:1220px;
+	margin:0 auto;
+}
+ 

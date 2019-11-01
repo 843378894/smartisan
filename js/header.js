@@ -1,0 +1,117 @@
+$(document).ready(function () {
+    $(".fdj").click(function () {
+        var i = $(".search").val();
+        if (i == "手机") {
+            $.cookie("search", "1", {
+                expires:5000,
+                path: 'search/search01.html'
+            });
+            alert($.cookie("1"));
+        } else if (i == "配件") {
+            $.cookie("search", "2", {
+                expires:5000,
+                path: 'search/search01.html'
+            })
+        } else {
+            $.cookie("search", "3", {
+                expires:5000,
+                path: 'search/search01.html'
+            });
+        }
+        window.location.href = "search/search01.html";
+        console.log(i);
+    })
+    $(".search").keydown(function (e) {
+        if (e.keyCode == 13) {
+            var i = $(".search").val();
+            if (i == "手机") {
+                $.cookie("search", "1", {
+                    expires:5000,
+                    path: 'search/search01.html'
+                });
+
+            } else if (i == "配件") {
+                $.cookie("search", "2", {
+                    expires:5000,
+                    path: 'search/search01.html'
+                });
+
+            } else {
+                $.cookie("search", "3", {
+                    expires:5000,
+                    path: 'search/search01.html'
+                });
+
+            }
+            console.log(i);
+            window.location.href = "search/search01.html";
+        }
+    })
+   
+    //固定导航栏
+    var bottomNav=document.getElementsByClassName("bottom_nav")[0];
+    var header=document.getElementById("header");
+    window.onscroll=function(){
+        var stop=document.documentElement.scrollTop ||document.body.scrollTop;
+
+        if(stop>45){
+            header.style.position="relative";
+            bottomNav.style.position="fixed";
+            bottomNav.style.top=0+"px";
+            bottomNav.style.left=0+"px";
+            bottomNav.style.right=0+"px";
+            bottomNav.style.zIndex="99";
+            // bottomNav.style.left=0;
+            // bottomNav.style.right=0;
+        }else{
+            bottomNav.style.position="static";
+        }
+    }
+
+
+    //jquery 的cookie封装函数
+
+    jQuery.cookie = function (name, value, options) {
+        if (typeof value != 'undefined') { // name and value given, set cookie
+            options = options || {};
+            if (value === null) {
+                value = '';
+                options = $.extend({}, options); // clone object since it's unexpected behavior if the expired property were changed
+                options.expires = -1;
+            }
+            var expires = '';
+            if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+                var date;
+                if (typeof options.expires == 'number') {
+                    date = new Date();
+               
+                    date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+                } else {
+                    date = options.expires;
+                }
+                expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+            }
+            // NOTE Needed to parenthesize options.path and options.domain
+            // in the following expressions, otherwise they evaluate to undefined
+            // in the packed version for some reason...
+            var path = options.path ? '; path=' + (options.path) : '';
+            var domain = options.domain ? '; domain=' + (options.domain) : '';
+            var secure = options.secure ? '; secure' : '';
+            document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+        } else { // only name given, get cookie
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    };
+})

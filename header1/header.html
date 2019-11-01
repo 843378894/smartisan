@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css"> -->
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="nav_min">
+            <div class="nav_left"><a href="#"></a></div>
+            <div class="container">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">在线商城</a></li>
+                        <li><a href="#">坚果Pro 2S</a></li>
+                        <li><a href="#">坚果 R1</a></li>
+                        <li><a href="#">坚果 TNT 工作站</a></li>
+                        <li><a href="#">Smartisan OS</a></li>
+                        <li><a href="#"> 欢喜云 </a></li>
+                        <li><a href="#"> 应用 </a></li>
+                        <li><a href="#"> 论坛 </a></li>
+                        <li><a href="#"> 荣誉与奖项 </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="nav_right">
+                <li class="li1">
+                    <a class="logo1" href="login/login.html"></a>
+                    <div class="userInformation">
+                        <dl class="userHead">
+                            <dd>
+                                <img src="images/ch_head1.jpg">
+                            </dd>
+                            <dt>muan</dt>
+                        </dl>
+                        <ul class="userContent">
+                            <li>我的订单</li>
+                            <li>售后服务</li>
+                            <li>我的优惠</li>
+                            <li>账户资料</li>
+                            <li>收货地址</li>
+                            <li>退出</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="li2"><a class="logo2" href="goods/goods.html"></a></li>
+            </ul>
+        </div>
+        <div class="bottom_nav">
+            <div class="bottom_nav_center container">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">手机</a></li>
+                    <li><a href="#">官方配件</a></li>
+                    <li><a href="#">服饰箱包</a></li>
+                    <li><a href="#">畅呼吸</a></li>
+                    <li><a href="#">服务</a></li>
+                </ul>
+               
+                <div class="bottom_nav_left">
+                    <a class="fdj"></a>
+                    <input type="text" value="" class="search">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+            window.onload=function(){
+                new ShowUser().init();
+            }
+            class ShowUser{
+                constructor(){
+                    this.li1=$(".li1");
+                    this.userInformation=$(".userInformation");
+                    this.userHead=$(".userHead");
+                }
+                init(){
+                    this.getSearchName()
+                }
+                li1Hover(){
+                    var _this=this
+                    this.li1.hover(function(){
+                        _this.userInformation.stop().slideDown();
+                    },function(){
+                        _this.userInformation.stop().slideUp();
+                    })
+                }
+                getSearchName(){
+                    var s=decodeURIComponent(location.search)
+                    console.log(s);
+                    if(!!s){
+                        this.li1Hover();
+                        var arr=s.substr(1).split("&");
+                        console.log(arr);
+                        var uname=arr[0].split("=")[1];
+                        console.log(uname);
+                        this.userHead.find("dt").html(uname);
+                    }
+                }
+            }
+            
+           
+        </script>
+</body>
+
+</html>

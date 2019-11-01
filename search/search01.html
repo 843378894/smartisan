@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>search</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/body.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/search.js"></script>
+</head>
+
+<body>
+		<div id="header"></div>
+	<div id="body" class="container">
+		<div class="start">
+			<div class="phone">
+				<header>
+					<h5>默认排序</h5>
+				</header>
+			</div>
+			<div class="content">
+				<ul>
+				</ul>
+				<ul></ul>
+			</div>
+
+		</div>
+	</div>
+	<div id="footer"></div>
+	<script src="../js/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$('#header').load('../header/header.html',function(){
+				$.getScript("../js/header01.js",function(){
+
+				})
+			});
+			$('#footer').load('../footer/footer.html');
+		});
+	</script>
+</body>
+
+</html>
